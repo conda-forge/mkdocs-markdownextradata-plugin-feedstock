@@ -1,5 +1,5 @@
 {% set name = "mkdocs-markdownextradata-plugin" %}
-{% set version = "0.0.6" %}
+{% set version = "0.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8a886706089bbfc022e3fd772a5d1edd399de4d587fc1521d7baa0519e85326b
+  sha256: 8ebbeb973c7418350cfc3cf1ee903f10576150e9463674fc7360707ce1cddde9
 
 build:
   number: 0
