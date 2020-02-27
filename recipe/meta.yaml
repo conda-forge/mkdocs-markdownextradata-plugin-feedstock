@@ -1,18 +1,18 @@
 {% set name = "mkdocs-markdownextradata-plugin" %}
-{% set version = "0.0.6" %}
+{% set version = "0.1.2" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8a886706089bbfc022e3fd772a5d1edd399de4d587fc1521d7baa0519e85326b
+  sha256: b074198cbbf0707ddfe5f46f5ca9b5f8be6594fc620944912106e11f72cda833
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license_family: MIT
   license_file: LICENSE.md
   summary: A MkDocs plugin that injects the mkdocs.yml extra variables into the markdown template
-  doc_url: http://www.mkdocs.org/user-guide/plugins/ 
+  doc_url: http://www.mkdocs.org/user-guide/plugins/
   dev_url: https://github.com/rosscdh/mkdocs-markdownextradata-plugin/
 
 extra:
