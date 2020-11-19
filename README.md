@@ -5,11 +5,13 @@ Home: https://github.com/rosscdh/mkdocs-markdownextradata-plugin/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-markdownextradata-plugin-feedstock/blob/master/LICENSE.txt)
 
 Summary: A MkDocs plugin that injects the mkdocs.yml extra variables into the markdown template
 
+Development: https://github.com/rosscdh/mkdocs-markdownextradata-plugin/
 
+Documentation: http://www.mkdocs.org/user-guide/plugins/
 
 Current build status
 ====================
